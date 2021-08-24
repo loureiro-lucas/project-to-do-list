@@ -4,6 +4,7 @@ body {
   background-image: url('background.png');
   background-size: cover;
   background-attachment: fixed;
+  color: rgb(73, 73, 73);
 }
 
 #container {
@@ -41,7 +42,7 @@ button {
   background-color: rgb(132 , 223 , 199);
   font-size: 0.75rem;
   border-style: none;
-
+  color: rgb(73, 73, 73);
 }
 
 input {
@@ -53,10 +54,12 @@ input {
   background-color: rgb(132 , 223 , 199);
 }
 
-.selecionada {
-  background-color: gray;
+::placeholder{
+  color: rgb(97, 97, 97);
+}
 
-  /* color: white; */
+.selecionada {
+  background-color: rgb(132 , 223 , 199);
 }
 
 .completed {
@@ -65,4 +68,17 @@ input {
 
 ol {
   list-style: circle;
+}
+
+ol li {
+  border-radius: 10px;
+  padding: 1px 10px 2px;
+}
+
+#apaga-tudo {
+  background-color: rgb(252, 175, 175);
+}
+
+#salvar-tarefas {
+  background-color: rgb(175, 176, 255);
 }

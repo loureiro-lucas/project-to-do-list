@@ -23,7 +23,7 @@ taskCreatorButton();
 function selectTask(event) {
   if (event.target.classList.contains('tarefa')) {
     if (event.target.classList.contains('selecionada')) {
-      // event.target.classList.remove('selecionada');
+      event.target.classList.remove('selecionada');
     } else {
       const currentSelected = document.getElementsByClassName('selecionada')[0];
       if (currentSelected !== undefined) {

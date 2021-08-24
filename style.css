@@ -43,6 +43,7 @@ button {
   font-size: 0.75rem;
   border-style: none;
   color: rgb(73, 73, 73);
+  cursor: pointer;
 }
 
 input {

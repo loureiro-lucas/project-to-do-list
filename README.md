@@ -2,7 +2,7 @@
 
 In this project I developed a webpage with a To Do List, an input to add new items to the list, and some functions like a clear button, a save feature and the possibility to reorder the items.
 
-Just like in the previous project, I could train my __JavaScript__, __CSS__, __HTML__ and __DOM manipulations__ skills, but this time with attention to __linter__, progressing to develop even better codes. Also, this time I was able to train my ability to manipulate the __localstorage__.
+Just like in the previous project, I could train my __JavaScript__, __CSS__, __HTML__ and __DOM manipulations__ skills, but this time with attention to __linter__, progressing to develop even better codes. Also, this time I was able to train my ability to manipulate the __localStorage__.
 
 ***
 
@@ -20,6 +20,6 @@ Just like in the previous project, I could train my __JavaScript__, __CSS__, __H
   - 11 - Add a button to clear completed items.
 
   `Bonus Requirements:`
-  - 12 - Add a button that saves the contents of the list in local storage. If you close and reopen the page, the list should remain as it was.
+  - 12 - Add a button that saves the contents of the list in localStorage. If you close and reopen the page, the list should remain as it was.
   - 13 - Add two buttons that allow user to move list items up and down.
   - 14 - Add a button remove selected item.
